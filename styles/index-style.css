@@ -90,8 +90,8 @@
 }
 
 .icon-container {
-  width: 16rem;
-  height: 16rem;
+  width: 15rem;
+  height: 15rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,8 +108,8 @@
 }
 
 .icon {
-  width: 10rem;
-  height: 10rem;
+  width: 8rem;
+  height: 8rem;
   margin-bottom: 0px;
   -webkit-transition: margin-bottom 250ms ease-out;
   transition: margin-bottom 250ms ease-out;
@@ -254,11 +254,11 @@ body {
   margin-top: 0px;
 }
 
-.content-divide {
+.content {
   padding: 5rem;
 }
 
-.content-divide h1 {
+.content h1 {
   color: var(--text-highlight);
   margin-left: auto;
   margin-right: auto;
@@ -266,6 +266,18 @@ body {
   border-bottom: 2px solid var(--text);
   text-align: center;
   padding: 0.5rem;
+}
+
+.content h2 {
+  color: var(--text-highlight);
+}
+
+.content h3 {
+  color: var(--text-highlight);
+}
+
+.content h4 {
+  color: var(--text-highlight);
 }
 
 .foot-logo {
@@ -282,5 +294,90 @@ body {
   width: 50vh;
   min-width: 8rem;
   height: 20vh;
+}
+
+@media screen and (max-width: 732px) {
+  @-webkit-keyframes intro1 {
+    0% {
+      margin-top: 30vh;
+      width: 90%;
+    }
+    50% {
+      margin-top: 30vh;
+      width: 90%;
+    }
+    75% {
+      margin-top: 30vh;
+      width: 50%;
+    }
+    100% {
+      margin-top: 5vh;
+      width: 50%;
+    }
+  }
+  @keyframes intro1 {
+    0% {
+      margin-top: 30vh;
+      width: 90%;
+    }
+    50% {
+      margin-top: 30vh;
+      width: 90%;
+    }
+    75% {
+      margin-top: 30vh;
+      width: 50%;
+    }
+    100% {
+      margin-top: 5vh;
+      width: 50%;
+    }
+  }
+  .icon-container {
+    width: 10rem;
+    height: 10rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .icon {
+    width: 7rem;
+    height: 7rem;
+    margin-bottom: 0px;
+    -webkit-transition: margin-bottom 250ms ease-out;
+    transition: margin-bottom 250ms ease-out;
+    margin-top: auto;
+  }
+  .logo {
+    width: 50%;
+    margin: 2rem;
+    -webkit-animation: intro1 4s;
+            animation: intro1 4s;
+  }
+  .body {
+    width: 100%;
+  }
+  .content {
+    padding: 1.5rem;
+  }
+  .content h1 {
+    color: var(--text-highlight);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-bottom: 2px solid var(--text);
+    text-align: center;
+    padding: 0.5rem;
+  }
 }
 /*# sourceMappingURL=index-style.css.map */
