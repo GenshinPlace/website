@@ -64,3 +64,20 @@
     color: var(--text-highlight);
 }
 
+@media screen and (max-width: 732px){
+    .icon-container {
+        width: 10rem;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .icon {
+        width: 7rem;
+        height: 7rem;
+        margin-bottom: 0px;
+        transition: margin-bottom 250ms ease-out;
+        margin-top: auto;
+    }
+}
