@@ -22,6 +22,7 @@
 }
 
 .icon-container {
+  padding-top: 4rem;
   width: 15rem;
   height: 15rem;
   display: -webkit-box;
@@ -85,6 +86,7 @@
 
 @media screen and (max-width: 732px) {
   .icon-container {
+    padding-top: 2rem;
     width: 10rem;
     height: 10rem;
     display: -webkit-box;
