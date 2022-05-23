@@ -256,13 +256,16 @@ body {
 
 .content {
   padding: 5rem;
+  padding-top: 1rem;
 }
 
 .content h1 {
   color: var(--text-highlight);
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   border-bottom: 2px solid var(--text);
   text-align: center;
   padding: 0.5rem;
@@ -270,6 +273,7 @@ body {
 
 .content h2 {
   color: var(--text-highlight);
+  text-align: center;
 }
 
 .content h3 {
@@ -277,7 +281,21 @@ body {
 }
 
 .content h4 {
+  color: var(--text);
+}
+
+.content a {
+  text-decoration: none;
   color: var(--text-highlight);
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+.content .text-light {
+  color: var(--text-light);
+  font-size: 0.75rem;
 }
 
 .foot-logo {
