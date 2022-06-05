@@ -69,6 +69,22 @@ body {
   font-family: genshin-font;
 }
 
+.directory {
+  font-size: 1rem;
+  float: left;
+  color: var(--text);
+  padding-left: 1rem;
+}
+
+.directory a {
+  text-decoration: none;
+  color: var(--text-highlight);
+}
+
+.directory a:hover {
+  text-decoration: underline;
+}
+
 .theme-btn {
   text-align: right;
   padding: 0.5rem;
@@ -82,8 +98,8 @@ body {
 }
 
 .page-title {
+  color: var(--text-highlight);
   text-align: center;
-  padding-bottom: 1rem;
   margin-bottom: 1rem;
   border-radius: 0px;
   border-top-left-radius: 2rem;
@@ -97,6 +113,13 @@ body {
   color: var(--text-highlight);
   text-align: center;
   margin-top: 0px;
+  padding-bottom: 2rem;
+}
+
+.page-title h2 {
+  color: var(--text-highlight);
+  padding-bottom: 2rem;
+  padding-top: 0rem;
 }
 
 .content {
@@ -142,6 +165,11 @@ body {
 .content .text-light {
   color: var(--text-light);
   font-size: 0.75rem;
+}
+
+.contents-table {
+  float: right;
+  border: 2px black;
 }
 
 .foot-logo {
