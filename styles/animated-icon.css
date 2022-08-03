@@ -23,8 +23,8 @@
 
 .icon-container {
   padding-top: 4rem;
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,10 +68,8 @@
 }
 
 .icon-text {
-  color: transparent;
+  color: var(--text);
   font-family: genshin-font;
-  -webkit-transition: color 250ms ease-out;
-  transition: color 250ms ease-out;
 }
 
 .icon-text p {

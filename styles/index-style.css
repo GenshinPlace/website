@@ -143,8 +143,8 @@
 
 .icon-container {
   padding-top: 4rem;
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,10 +188,8 @@
 }
 
 .icon-text {
-  color: transparent;
+  color: var(--text);
   font-family: genshin-font;
-  -webkit-transition: color 250ms ease-out;
-  transition: color 250ms ease-out;
 }
 
 .icon-text p {
@@ -304,6 +302,22 @@ body {
   font-family: genshin-font;
 }
 
+.directory {
+  font-size: 1rem;
+  float: left;
+  color: var(--text);
+  padding-left: 1rem;
+}
+
+.directory a {
+  text-decoration: none;
+  color: var(--text-highlight);
+}
+
+.directory a:hover {
+  text-decoration: underline;
+}
+
 .theme-btn {
   text-align: right;
   padding: 0.5rem;
@@ -332,12 +346,13 @@ body {
   color: var(--text-highlight);
   text-align: center;
   margin-top: 0px;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .page-title h2 {
   color: var(--text-highlight);
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 0rem;
 }
 
 .content {
@@ -383,6 +398,11 @@ body {
 .content .text-light {
   color: var(--text-light);
   font-size: 0.75rem;
+}
+
+.contents-table {
+  float: right;
+  border: 2px black;
 }
 
 .foot-logo {
