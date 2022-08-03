@@ -14,7 +14,6 @@
 }
 
 .icon-container {
-    padding-top: 4rem;
     width: 20rem;
     height: 20rem;
     display: flex;
@@ -24,8 +23,8 @@
 }
 
 .icon {
-    width: 8rem;
-    height: 8rem;
+    width: 10rem;
+    height: 10rem;
     margin-bottom: 0px;
     transition: margin-bottom 250ms ease-out;
     margin-top: auto;
@@ -46,7 +45,7 @@
 }
 
 .icon-container:hover > .icon-underline {
-    width: 8rem;
+    width: 10rem;
 }
 
 .icon-text {
@@ -64,19 +63,18 @@
     color: var(--text-highlight);
 }
 
-@media screen and (max-width: 732px){
+@media screen and (max-width: 1024px){
     .icon-container {
-        padding-top: 2rem;
-        width: 10rem;
-        height: 10rem;
+        width: 16rem;
+        height: 16rem;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
     .icon {
-        width: 7rem;
-        height: 7rem;
+        width: 6rem;
+        height: 6rem;
         margin-bottom: 0px;
         transition: margin-bottom 250ms ease-out;
         margin-top: auto;

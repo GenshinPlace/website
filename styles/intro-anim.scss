@@ -1,4 +1,4 @@
-@keyframes intro1 {
+/*@keyframes intro1 {
     0% {margin-top: 30vh; width: 40%;}
     50% {margin-top: 30vh; width: 40%;}
     75% {margin-top: 30vh; width: 25%;}
@@ -11,7 +11,7 @@
     100% {margin-top: 0%; opacity: 1;}
 }
 
-@media screen and (max-width: 732px){
+@media screen and (max-width: 1024px){
     @keyframes intro1 {
         0% {margin-top: 30vh; width: 90%;}
         50% {margin-top: 30vh; width: 90%;}
@@ -30,3 +30,4 @@
     margin: 2rem;
     animation: intro1 4s;
 }
+*/
